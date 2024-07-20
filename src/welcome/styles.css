@@ -1,0 +1,72 @@
+body {
+    background-image: url('/public/background/LoginBackground.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000; 
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 200px; 
+    height: auto; 
+}
+
+.welcome-container {
+    width: 80%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #77B7D9; 
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #91D78A; 
+    color: #000000;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #6FA56E; 
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .welcome-container {
+        width: 90%;
+    }
+
+    .btn {
+        max-width: 90%;
+    }
+}

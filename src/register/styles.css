@@ -1,0 +1,122 @@
+body {
+    /* Utiliza una imagen de fondo */
+    background-image: url('/public/background/LoginBackground.jpg');
+    /* Establece el tamaño del fondo para que cubra la pantalla */
+    background-size: cover;
+    /* Centra la imagen de fondo */
+    background-position: center;
+    /* Evita que la imagen de fondo se repita */
+    background-repeat: no-repeat;
+    /* Ajusta la altura del cuerpo al 100% del viewport (altura de la pantalla) */
+    min-height: 100vh; /* Asegura que el cuerpo ocupe al menos la altura del viewport */
+    /* Elimina el margen y el relleno predeterminados */
+    margin: 0;
+    padding: 0;
+    /* Estilos flexibles para centrar el contenido verticalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Cambiado para permitir espacio para el logo */
+    /* Color de texto predeterminado */
+    color: #000000;
+    /* Utiliza una fuente legible */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos adicionales para el encabezado */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 150px; /* Ajustado para pantallas pequeñas */
+    height: auto;
+}
+
+/* Estilos para el contenedor de registro */
+.register-container {
+    width: 90%; /* Ajustado para pantallas más pequeñas */
+    max-width: 400px;
+    margin: 20px auto; /* Ajustado para pantallas más pequeñas */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #77B7D9;
+    box-sizing: border-box;
+    opacity: 0.9; /* Añadido para mejorar la visibilidad del contenido */
+}
+
+/* Estilos para grupos de formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #574E4E;
+}
+
+/* Estilos para campos de entrada de formulario */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #574E4E;
+}
+
+/* Estilos para botones de formulario */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #91D78A;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6FA56E;
+}
+
+/* Estilos para párrafos y enlaces */
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #000000;
+}
+
+/* Estilos para encabezados */
+h2 {
+    text-align: center;
+}
+
+/* Media Query para pantallas más pequeñas (responsive) */
+@media (max-width: 768px) {
+    .register-container {
+        width: 95%; /* Ajustado para pantallas más pequeñas */
+    }
+
+    /* Ajustar el tamaño máximo de la imagen del encabezado */
+    header img {
+        max-width: 120px; /* Ajustado para pantallas más pequeñas */
+    }
+
+    /* Ajustar el tamaño del texto en los botones */
+    button {
+        font-size: 14px;
+    }
+}

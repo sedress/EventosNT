@@ -1,0 +1,89 @@
+body {
+    /* Utiliza una imagen de fondo */
+    background-image: url('/public/background/LoginBackground.jpg');
+    /* Establece el tamaño del fondo para que cubra la pantalla */
+    background-size: cover;
+    /* Centra la imagen de fondo */
+    background-position: center;
+    /* Evita que la imagen de fondo se repita */
+    background-repeat: no-repeat;
+    /* Ajusta la altura del cuerpo al 100% del viewport (altura de la pantalla) */
+    height: 100vh;
+    /* Elimina el margen y el relleno predeterminados */
+    margin: 0;
+    padding: 0;
+    /* Estilos flexibles para centrar el contenido verticalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Color de texto predeterminado */
+    color: #000000;
+    /* Utiliza una fuente legible */
+    font-family: Arial, sans-serif;
+}
+
+
+/* Estilos para el Encabezado */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+
+text-align: center;
+
+}
+
+/* Estilos para el Logo */
+header img {
+    max-width: 200px; /* Define el ancho máximo del logo */
+    height: auto; /* Hace que la altura se ajuste automáticamente */
+}
+
+/* Contenedor Principal del Formulario */
+.error-report-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los Campos de Texto y Textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el Botón de Enviar */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #91D78A;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #78c977;
+}
+
+/* Estilos para Pantallas Pequeñas (móviles) */
+@media (max-width: 600px) {
+    .error-report-container {
+        width: 90%;
+        padding: 15px;
+    }
+}

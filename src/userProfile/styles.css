@@ -1,0 +1,45 @@
+body {
+    /* Utiliza una imagen de fondo */
+    background-image: url('/public/background/LoginBackground.jpg');
+    /* Establece el tamaño del fondo para que cubra la pantalla */
+    background-size: cover;
+    /* Centra la imagen de fondo */
+    background-position: center;
+    /* Evita que la imagen de fondo se repita */
+    background-repeat: no-repeat;
+    /* Ajusta la altura del cuerpo al 100% del viewport (altura de la pantalla) */
+    height: 100vh;
+    /* Elimina el margen y el relleno predeterminados */
+    margin: 0;
+    padding: 0;
+    /* Color de texto predeterminado */
+    color: #000000;
+    /* Utiliza una fuente legible */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.profile {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    margin-bottom: 10px;
+}
+
+.profile p {
+    margin-bottom: 5px;
+}

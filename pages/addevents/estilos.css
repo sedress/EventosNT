@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+  font-family: "Quicksand", sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* Estilos generales del header */
+.header {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoHeader {
+  height: 40px;
+  margin-right: 20px;
+  margin-left: 5%;
+}
+
+.header .nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.header .nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.header .nav-links a:hover {
+  background-color: #0056b3;
+}
+
+.header .nav-toggle {
+  display: none;
+}
+
+.header .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header .dropdown-menu a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.header .dropdown-menu a:hover {
+  background-color: #0056b3;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eventos-opc {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  align-items: start;
+}
+
+/* Estilos generales para el contenedor principal */
+.Adm-eventos {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+  font-family: "Quicksand", sans-serif;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los encabezados */
+.Adm-eventos h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Adm-eventos h2 {
+  font-size: 1.5em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Estilo para el formulario */
+.Adm-eventos form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Adm-eventos label {
+  font-size: 1em;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.Adm-eventos input[type="text"],
+.Adm-eventos input[type="time"],
+.Adm-eventos input[type="date"],
+.Adm-eventos textarea,
+.Adm-eventos select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  background-color: #fff;
+}
+
+.Adm-eventos textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.Adm-eventos button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Adm-eventos button:hover {
+  background-color: #0056b3;
+}
+
+.Adm-eventos button:focus {
+  outline: none;
+}
+
+/* Estilos generales para el aside de eliminación de eventos */
+.delete-events {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 15px;
+  font-family: "Quicksand", sans-serif;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.delete-events h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Estilo para el formulario de eliminación */
+.delete-events form {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-events label {
+  font-size: 1em;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.delete-events input[type="text"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  background-color: #fff;
+}
+
+.delete-events button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #dc3545;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-events button:hover {
+  background-color: #c82333;
+}
+
+.delete-events button:focus {
+  outline: none;
+}
+
+/* Estilo general para la tabla de eventos */
+.tabla-eventos {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.tabla-eventos h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+thead th {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+img {
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #ccc;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+}

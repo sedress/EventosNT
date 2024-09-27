@@ -174,7 +174,7 @@ include 'conexion.php';
     </section>
 
 
-    <a href="/EVENTOSNT/pages/main/eventos.php">Volver a la lista de eventos</a>
+    <a href="/EVENTOSNT/pages/main/eventos.php" class="a-end">Volver a la lista de eventos</a>
 
     <!-- Footer -->
     <footer>

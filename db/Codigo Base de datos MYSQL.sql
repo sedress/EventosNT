@@ -2,7 +2,7 @@
 CREATE DATABASE EventosNT;
 
 -- Seleccionar la base de datos
-USE EventosNT1;
+USE EventosNT;
 
 -- Crear la tabla Categoria
 CREATE TABLE Categoria (

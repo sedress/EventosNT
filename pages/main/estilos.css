@@ -222,7 +222,6 @@ footer {
   text-align: center;
   padding: 10px;
   bottom: 0;
-  position: fixed;
 }
 
 @media (max-width: 768px) {

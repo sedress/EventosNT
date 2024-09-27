@@ -15,12 +15,12 @@ include 'conexion.php';
 <body>
     <!-- Header -->
     <header class="header">
-        <a href="/Pagina-Web-EventosNT-main/pages/main/eventos.php">
-            <img src="/Pagina-Web-EventosNT-main/public/logo/logo.png" alt="Logo" class="logoHeader">
+        <a href="/EVENTOSNT/pages/main/eventos.php">
+            <img src="/EVENTOSNT/public/logo/logo.png" alt="Logo" class="logoHeader">
         </a>
         <button class="nav-toggle" onclick="toggleMenu()">☰</button>
         <div class="nav-links" id="navLinks">
-            <a href="/Pagina-Web-EventosNT-main/pages/addevents/administrar_eventos.php">Administrar eventos</a>
+            <a href="/EVENTOSNT/pages/addevents/administrar_eventos.php">Administrar eventos</a>
             <a href="#">Perfil</a>
             <a href="#">Cerrar Sesión</a>
         </div>
@@ -174,7 +174,7 @@ include 'conexion.php';
     </section>
 
 
-    <a href="/Pagina-Web-EventosNT-main/pages/main/eventos.php">Volver a la lista de eventos</a>
+    <a href="/EVENTOSNT/pages/main/eventos.php">Volver a la lista de eventos</a>
 
     <!-- Footer -->
     <footer>

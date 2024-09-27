@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             session_start();
             $_SESSION['UsuarioID'] = $user['UsuarioID'];
             $_SESSION['Nombres'] = $user['Nombres'];
-            header("Location: /Pagina-Web-EventosNT-main/pages/main/eventos.php");
+            header("Location: /EVENTOSNT/pages/main/eventos.php");
             exit();
         } else {
             $error = "Contraseña incorrecta.";
@@ -51,7 +51,7 @@ $conn->close();
 
 <body>
     <section class="seccion-principal">
-        <img src="/Pagina-Web-EventosNT-main/public/logo/logo.png" alt="Logo" class="logo">
+        <img src="/EVENTOSNT/public/logo/logo.png" alt="Logo" class="logo">
         <h2>Iniciar Sesión</h2>
         <?php if (isset($error)) {
             echo "<p style='color:red;'>$error</p>";
@@ -64,7 +64,7 @@ $conn->close();
             <input type="password" id="password" name="password" required><br><br>
             <section class="botones">
                 <button type="submit">Ingresar</button>
-                <a href="/Pagina-Web-EventosNT-main/pages/register/register.php"><button type="button" class="buttonR">Registrar</button></a>
+                <a href="/EVENTOSNT/pages/register/register.php"><button type="button" class="buttonR">Registrar</button></a>
             </section>
         </form>
     </section>

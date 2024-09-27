@@ -67,9 +67,9 @@ $categorias_result = $conn->query($sql_categorias);
         </a>
         <button class="nav-toggle" onclick="toggleMenu()">☰</button>
         <div class="nav-links" id="navLinks">
-            <a href="/Pagina-Web-EventosNT-main/pages/addevents/administrar_eventos.php">Administrar eventos</a>
+            <a href="/EVENTOSNT/pages/addevents/administrar_eventos.php">Administrar eventos</a>
             <a href="#">Perfil</a>
-            <a href="/Pagina-Web-EventosNT-main/index.html">Cerrar Sesión</a>
+            <a href="/EVENTOSNT/index.html">Cerrar Sesión</a>
         </div>
     </header>
 

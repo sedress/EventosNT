@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         if ($conn->query($sql_insert) === TRUE) {
             // Redirigir a la página de inicio de sesión
-            header("Location: /Pagina-Web-EventosNT-main/pages/login/login.php");
+            header("Location: /EVENTOSNT/pages/login/login.php");
             exit();
         } else {
             $error = "Error al registrar el usuario: " . $conn->error;

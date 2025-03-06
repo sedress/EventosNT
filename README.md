@@ -51,7 +51,6 @@ Este proyecto consiste en una página web enfocada en la promoción de eventos c
 - `index.php`: Página principal con listado de eventos.
 - `login.php` y `register.php`: Vistas para autenticación de usuarios.
 - `evento.php`: Detalles de un evento específico.
-- `admin/`: Panel de administración de eventos y usuarios.
 - `css/`: Estilos de la aplicación.
 - `js/`: Scripts de funcionalidad interactiva.
 

@@ -48,9 +48,9 @@ Este proyecto consiste en una página web enfocada en la promoción de eventos c
 5. Accede a la aplicación desde el navegador en `http://localhost/EventosNT/`
 
 ## Estructura del proyecto
-- `index.php`: Página principal con listado de eventos.
+- `eventos.php`: Página principal con listado de eventos.
 - `login.php` y `register.php`: Vistas para autenticación de usuarios.
-- `evento.php`: Detalles de un evento específico.
+- `administrar_eventos.php`: Página para administrar eventos.
 - `css/`: Estilos de la aplicación.
 - `js/`: Scripts de funcionalidad interactiva.
 
